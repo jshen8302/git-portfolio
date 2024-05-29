@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "mywebsite",
+    "title": "Hi, I’m James",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Hi, I’m James\nI am a psychology and computer science major, and I am happy to be here.\n\n\n\n\n\n\n\n\n\nAbout me\nMore stuff"
   },
   {
     "objectID": "about.html",
@@ -16,8 +16,36 @@
   {
     "objectID": "music.html",
     "href": "music.html",
-    "title": "music",
+    "title": "Music",
     "section": "",
     "text": "my music"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "projects go here"
+  },
+  {
+    "objectID": "index.html#projects",
+    "href": "index.html#projects",
+    "title": "Hi, I’m James",
+    "section": "Projects",
+    "text": "Projects\n\nProject 1: Web Development\nDescription of the first project, tools used, and outcomes.\n\n\nProject 2: Machine Learning\nDescription of the second project, tools used, and outcomes.\n\n\nProject 3: Mobile App\nDescription of the third project, tools used, and outcomes."
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Hi, I’m James",
+    "section": "About Me",
+    "text": "About Me\nI am a student majoring in psychology and computer science at VCU. I have a strong interest in combining these fields to explore how technology can be used to understand and improve mental health. In my free time, I enjoy working on coding projects, learning new programming languages, and staying active through sports and outdoor activities."
+  },
+  {
+    "objectID": "index.html#my-projects",
+    "href": "index.html#my-projects",
+    "title": "Hi, I’m James",
+    "section": "My Projects",
+    "text": "My Projects"
   }
 ]

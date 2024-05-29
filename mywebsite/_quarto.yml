@@ -3,20 +3,22 @@ project:
   output-dir: ../docs
 
 website:
-  title: "mywebsite"
+  title: "Me"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
       - music.qmd
+      - projects.qmd
 
 
 format:
   html:
-    theme: darkly
+    theme: superhero
     css: styles.css
     toc: true
+    include-after-body: js/home.html
 
 
 

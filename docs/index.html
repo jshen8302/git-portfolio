@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>mywebsite</title>
+<title>Me</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">mywebsite</span>
+    <span class="navbar-title">Me</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -91,7 +91,11 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./music.html" rel="" target="">
- <span class="menu-text">music</span></a>
+ <span class="menu-text">Music</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./projects.html" rel="" target="">
+ <span class="menu-text">Projects</span></a>
   </li>  
 </ul>
             <div class="quarto-navbar-tools ms-auto">
@@ -110,29 +114,125 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">mywebsite</h1>
+
+
+<div class="section-2">
+<div class="community-backdrop">
+<div class="community-background">
+
+</div>
+</div>
+<div class="creating-softwares scroll-spy back-to-position">
+<section id="hi-im-james" class="level1 left-align text-wrap">
+<h1 class="left-align">Hi, I’m James</h1>
+<p>I am a psychology and computer science major, and I am happy to be here.</p>
+</section>
+<div class="img-wrap">
+<p><img src="assets/buffet.png" class="img-fluid"></p>
+</div>
+</div>
+</div>
+<div class="section-2">
+<div class="creating-softwares scroll-spy back-to-position">
+<section id="about-me" class="level1 text-wrap">
+<h1>About me</h1>
+<p>More stuff</p>
+</section>
+<div class="img-wrap">
+<p><img src="assets/buffet.png" class="img-fluid"></p>
+</div>
+</div>
 </div>
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-</header>
-
-<p>This is a Quarto website.</p>
-<p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
-
-
-
 </main> <!-- /main -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.css">
+<script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
+
+<script type="text/javascript">
+  jQuery(function ($) {
+    $("#learnaboutus").click(function () {
+          $('html, body').animate({
+            scrollTop: $("h2").offset().top -50
+          }, 1000);
+        });
+  });
+
+  const spyEls = document.querySelectorAll('.scroll-spy');
+
+  spyEls.forEach(function (spyEl) {
+    new ScrollMagic
+    .Scene({
+      triggerElement: spyEl,
+      triggerHook: .8
+    })
+    .setClassToggle(spyEl, 'show')
+    .addTo(new ScrollMagic.Controller());
+  });
+
+  new Swiper('.teams.swiper-container', {
+  autoplay: false,
+  loop: false,
+  slidesPerView: 1.1,
+  centeredSlides: true,
+  spaceBetween: 0,
+  pagination: {
+    el: ".teams .swiper-nav .swiper-pagination",
+    clickable: true
+  },
+  navigation: {
+    prevEl: '.teams .swiper-prev',
+    nextEl: '.teams .swiper-next'
+  },
+  touchStartPreventDefault: false
+});
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.css">
+<script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
+
+<script type="text/javascript">
+  jQuery(function ($) {
+    $("#learnaboutus").click(function () {
+          $('html, body').animate({
+            scrollTop: $("h2").offset().top -50
+          }, 1000);
+        });
+  });
+
+  const spyEls = document.querySelectorAll('.scroll-spy');
+
+  spyEls.forEach(function (spyEl) {
+    new ScrollMagic
+    .Scene({
+      triggerElement: spyEl,
+      triggerHook: .8
+    })
+    .setClassToggle(spyEl, 'show')
+    .addTo(new ScrollMagic.Controller());
+  });
+
+  new Swiper('.teams.swiper-container', {
+  autoplay: false,
+  loop: false,
+  slidesPerView: 1.1,
+  centeredSlides: true,
+  spaceBetween: 0,
+  pagination: {
+    el: ".teams .swiper-nav .swiper-pagination",
+    clickable: true
+  },
+  navigation: {
+    prevEl: '.teams .swiper-prev',
+    nextEl: '.teams .swiper-next'
+  },
+  touchStartPreventDefault: false
+});
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

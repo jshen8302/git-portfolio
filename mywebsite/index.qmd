@@ -1,7 +1,51 @@
 ---
-title: "mywebsite"
+include-after-body: ./js/home.html
 ---
 
-This is a Quarto website.
+::: {.section-2}
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+:::  {.community-backdrop}
+::: {.community-background}
+:::
+:::
+
+::: {.creating-softwares .scroll-spy .back-to-position}
+
+::: {.text-wrap}
+
+# Hi, I'm James {.left-align}
+I am a psychology and computer science major, and I am happy to be here.
+
+:::
+
+::: {.img-wrap}
+
+![](assets/buffet.png)
+
+:::
+
+:::
+
+:::
+
+::: {.section-2}
+
+::: {.creating-softwares .scroll-spy .back-to-position}
+
+::: {.text-wrap}
+
+# About me
+More stuff
+
+:::
+
+::: {.img-wrap}
+
+![](assets/buffet.png)
+
+:::
+
+:::
+
+:::
+

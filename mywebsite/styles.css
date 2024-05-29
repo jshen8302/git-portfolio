@@ -1,1 +1,132 @@
-/* css styles */
+/*-- scss:defaults --*/
+
+/* Type system */
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+/*-- scss:rules --*/
+
+.quarto-container {
+  overflow: hidden;
+}
+
+.show.back-to-position {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Change the background color of the navbar */
+.navbar {
+    background-color: #f26e15; /* Replace with your desired color */
+}
+  
+/* Change the text color of the navbar links */
+.navbar .nav-link {
+    color: #FFFFFF; /* Replace with your desired color */
+}
+  
+/* Change the hover color of the navbar links */
+.navbar .nav-link:hover {
+    color: #FFD700; /* Replace with your desired hover color */
+}
+  
+/* Hide the title */
+.hidden-title {
+    display: none;
+}
+
+.section-2 {
+    display: flex;
+    padding: 128px 0;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%; /* Ensure full width */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+
+    .community-backdrop {
+        background-color: transparent;
+        position: absolute; /* Fixed position to cover the entire viewport */
+        top: 0;
+        left: 0; /* Ensure it starts from the left edge */
+        width: 100vw; /* Full viewport width */
+        height: 70vh; /* Full viewport height */
+        z-index: -1;
+
+        .community-background {
+            background-image: url(./assets/fondo.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            width: 100%;
+            height: 100%;
+            opacity: 0.2;
+            mix-blend-mode: overlay;
+        }
+    }
+
+    .creating-softwares {
+        display: flex;
+        align-items: center;
+        gap: 64px;
+
+        .level3 {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            color: lightwhite;
+            flex: 8 0 0;
+            width: 48%;
+        }
+
+        .img-wrap {
+            display: block;
+            width: 75%;
+
+            p {
+                display: block;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+.section-3 {
+    display: flex;
+    padding: 128px 0;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%; /* Ensure full width */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+
+    .creating-softwares {
+        display: flex;
+        align-items: center;
+        gap: 64px;
+
+        .level3 {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            color: lightwhite;
+            flex: 8 0 0;
+            width: 48%;
+        }
+
+        .img-wrap {
+            display: block;
+            width: 75%;
+
+            p {
+                display: block;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
