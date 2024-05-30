@@ -6,12 +6,17 @@ website:
   title: "Me"
   sidebar: false
   navbar:
-    left:
+    logo: assets/northpolepanic_logo_square.png
+    logo-href: /index.html
+    title: false
+    search: false
+    right:
       - href: index.qmd
         text: Home
       - about.qmd
       - music.qmd
       - projects.qmd
+
 
 
 format:

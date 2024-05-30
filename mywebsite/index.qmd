@@ -13,14 +13,14 @@ include-after-body: ./js/home.html
 
 ::: {.text-wrap}
 
-# Hi, I'm James {.left-align}
-I am a psychology and computer science major at VCU, and I am glad you are here.
+# Hi, I'm James Shen {.left-align}
+I am a psychology and computer science major at VCU, and welcome to my portfolio
 
 :::
 
 ::: {.img-wrap}
 
-![](assets/buffet.png)
+![](assets/binary-removebg-preview.png)
 
 :::
 
