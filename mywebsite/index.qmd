@@ -14,7 +14,7 @@ include-after-body: ./js/home.html
 ::: {.text-wrap}
 
 # Hi, I'm James {.left-align}
-I am a psychology and computer science major, and I am happy to be here.
+I am a psychology and computer science major at VCU, and I am glad you are here.
 
 :::
 

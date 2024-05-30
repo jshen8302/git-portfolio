@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Me"
+  sidebar: false
   navbar:
     left:
       - href: index.qmd
@@ -15,9 +16,8 @@ website:
 
 format:
   html:
-    theme: superhero
-    css: styles.css
-    toc: true
+    theme: styles.scss
+    toc: false
     include-after-body: js/home.html
 
 
